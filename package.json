@@ -1,11 +1,14 @@
 {
   "name": "caprio-studio",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "type": "module",
   "scripts": {
     "dev": "npx serve public -l 3000",
     "build": "node scripts/seo.mjs",
     "preview": "npx serve public -l 3000"
+  },
+  "dependencies": {
+    "nodemailer": "^7.0.0"
   }
 }
