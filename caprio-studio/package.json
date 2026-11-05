@@ -1,0 +1,11 @@
+{
+  "name": "caprio-studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx serve public -l 3000",
+    "build": "node scripts/seo.mjs",
+    "preview": "npx serve public -l 3000"
+  }
+}
